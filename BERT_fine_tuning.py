@@ -48,6 +48,7 @@ if __name__ == '__main__':
                                       questions=train_questions, answers=train_answers, truncation=True, padding=True)
     valid_encodings = create_encoding(tokenizer_name='bert-base-uncased', contexts=valid_contexts,
                                       questions=valid_questions, answers=valid_answers, truncation=True, padding=True)
+
     #tokenizer_name = 'bert-base-uncased'
     #tokenizer = BertTokenizerFast.from_pretrained(tokenizer_name)
 
